@@ -13,3 +13,11 @@ const meuCarro: Carro = {
     ano: 2025,
 };  
 console.log(meuCarro)
+
+//Exercício 2
+ 
+interface Multiplicacao {
+    (a: number, b: number): number;
+}
+const multiplicacao: Multiplicacao = (x,y) => x * y;
+console.log(multiplicacao(5,2))
